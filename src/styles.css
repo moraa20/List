@@ -1,0 +1,70 @@
+/* styles.css */
+
+/* TodoList Component */
+.todo-list-container {
+    margin-bottom: 20px;
+}
+
+.todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.todo-list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.todo-text {
+    margin-right: 10px;
+}
+
+.todo-remove-button {
+    background-color: #f44336;
+    /* Red */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.todo-remove-button:hover {
+    background-color: #d32f2f;
+    /* Darker Red */
+}
+
+/* ClickCounter Component */
+.click-counter-container {
+    margin-bottom: 20px;
+}
+
+.click-counter-button {
+    background-color: #4caf50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* FactorialCalculator Component */
+.factorial-calculator-container {
+    margin-bottom: 20px;
+}
+
+.factorial-input {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.factorial-result {
+    font-size: 18px;
+    font-weight: bold;
+}
